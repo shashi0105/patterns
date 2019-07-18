@@ -11,12 +11,12 @@ public class PrimeNumber
 	 Scanner s = new Scanner(System.in);
 	 int num = s.nextInt();
 	 if(num%2!=0 && num%3!=0 && num%5!=0 && num%7!=0 )
-	 {
+	 {   
 		 System.out.println("the number is  Prime");
 	 }else
-	 {
+	   {
 		 System.out.println("the number is not Prime");
-	 }
+	   }
 	 
 	}
 
